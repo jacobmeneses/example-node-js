@@ -12,6 +12,7 @@ describe('Calculator', function() {
                     d: '50'
                 }
             };
+            
             getInterest(ctx);
             assert.equal(ctx.body.interest.toFixed(2), (208.3333333333).toFixed(2))
         })
